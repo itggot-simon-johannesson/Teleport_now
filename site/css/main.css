@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100vw;
+  height: 65px;
+  background-color: #ffc107;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  position: fixed;
+  margin: 0;
+}
+
+.search_bar {
+  background-color: white;
+  height: 48px;
+  width: 95vw;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=text] {
+  border: transparent;
+  width: inherit;
+  height: inherit;
+  border-radius: 2px;
+  margin: 0;
+  max-height: inherit;
+}
+
+input[placeholder="Search a location"] {
+
+}
+
+.search_bar_input {
+  width: inherit;
+  height: inherit;
+}
+
+nav {
+  height: 47px;
+  width: 100vw;
+  background-color: #ffc107;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  z-index: 90;
+  position: fixed;
+  top: 65px;
+  left: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.in_nav {
+  width: 33.3333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+}
+
+.nav_text {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.nav_link {
+  height: 100%;
+  text-decoration: none;
+}
+
+#nav_selected_line {
+  border-bottom: solid 2px #2196f3;
+}
+
+#nav_selected_text {
+  color: #2196f3;
+}
