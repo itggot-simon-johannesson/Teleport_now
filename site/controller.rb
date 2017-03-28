@@ -1,4 +1,4 @@
-# require 'date'
+require 'date'
 layout('layout.html.erb')
 
 # before do
@@ -9,10 +9,10 @@ layout('layout.html.erb')
 # end
 
 # functions inside the "helpers" block are available in the erb files.
-# helpers do
+#  helpers do
 #
-#     def nicely_formatted_date(date)
-#         return date.strftime("%Y-%m-%d %H:%M")
-#     end
+#      def nicely_formatted_date(date)
+#          return date.strftime("%Y-%m-%d %H:%M")
+#      end
 #
-# end
+#  end
